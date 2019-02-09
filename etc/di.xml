@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <virtualType name="MagentoPlus\ConfigInvestigation\Model\Config\Reader" type="Magento\Framework\Config\Reader\Filesystem">
+        <arguments>
+            <argument name="idAttributes" xsi:type="array">
+                <item name="/config/map" xsi:type="string">name</item>
+                <item name="/config/map/item" xsi:type="string">name</item>
+            </argument>
+            <argument name="schemaLocator" xsi:type="object">MagentoPlus\ConfigInvestigation\Model\Config\SchemaLocator</argument>
+            <argument name="converter" xsi:type="object">MagentoPlus\ConfigInvestigation\Model\Config\Converter</argument>
+            <argument name="fileName" xsi:type="string">ro_import_map.xml</argument>
+        </arguments>
+    </virtualType>
+    <type name="MagentoPlus\ConfigInvestigation\Model\Config\Data">
+        <arguments>
+            <argument name="reader" xsi:type="object">MagentoPlus\ConfigInvestigation\Model\Config\Reader</argument>
+            <argument name="cacheId" xsi:type="object">ro_import_maps</argument>
+        </arguments>
+    </type>
+</config>

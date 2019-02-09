@@ -1,0 +1,204 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="ro_import_map.xsd">
+    <map name="mapping_variations">
+        <item name="Size">size</item>
+        <item name="FamilyId">sku</item>
+    </map>
+    <map name="export_attributes">
+        <item name="Brand">brand</item>
+        <item name="Size">size</item>
+        <item name="Occasion">occasion</item>
+        <item name="Gender">gender</item>
+        <item name="Style">style</item>
+        <item name="ColorPrimary">color_primary</item>
+        <item name="ColorDescriptive">color</item>
+        <!--<item name="CollectionId">collection_id</item>-->
+        <item name="ProductCategory">product_plkl_category</item>
+        <item name="ProductClass">product_plkl_class</item>
+        <item name="ProductDepartment">product_plkl_department</item>
+        <item name="ProductGroup">product_plkl_group</item>
+        <item name="SizeFilter">size_filter</item>
+    </map>
+    <map name="mapping_attributes_configurable">
+        <item name="Height">height</item>
+        <item name="Width">width</item>
+        <item name="Length">length</item>
+        <item name="ColorDescriptive">color</item>
+        <item name="ColorPrimary">color_primary</item>
+    </map>
+    <map name="super_attributes">
+        <item>size</item>
+    </map>
+    <map name="collection_filter">
+        <item>color</item>
+        <item>color_primary</item>
+        <item>size</item>
+        <item>upc</item>
+        <item>visibility</item>
+        <item>status</item>
+        <item>url_key</item>
+        <item>image</item>
+        <item>small_image</item>
+        <item>swatch_image</item>
+        <item>thumbnail</item>
+    </map>
+    <map name="saved_attributes">
+        <item>brand</item>
+        <item>color</item>
+        <item>color_primary</item>
+        <item>size</item>
+        <item>occasion</item>
+        <item>gender</item>
+        <item>style</item>
+        <item>upc</item>
+        <item>name</item>
+        <item>price</item>
+        <item>special_price</item>
+        <item>collection_id</item>
+        <item>visibility</item>
+        <item>status</item>
+        <item>product_plkl_category</item>
+        <item>product_plkl_class</item>
+        <item>product_plkl_department</item>
+        <item>product_plkl_group</item>
+        <item>height</item>
+        <item>width</item>
+        <item>length</item>
+        <item>weight</item>
+        <item>website</item>
+        <item>description</item>
+        <item>url_key</item>
+        <item>image</item>
+        <item>small_image</item>
+        <item>swatch_image</item>
+        <item>thumbnail</item>
+        <item>is_returnable</item>
+        <item>shiekh_collection_id</item>
+        <item>kl_parent_id</item>
+        <item>product_is_drop_ship</item>
+        <item>status</item>
+        <item>size_filter</item>
+        <item>ship_height</item>
+        <item>ship_width</item>
+        <item>ship_length</item>
+        <item>is_product_is_pto</item>
+        <item>shipperhq_shipping_group</item>
+        <item>imported_time</item>
+        <item>promo_pricing</item>
+        <item>is_clearance</item>
+        <item>unit_cost</item>
+        <item>blowout</item>
+        <item>news_from_date</item>
+        <item>news_to_date</item>
+        <item>tax_class_id</item>
+        <item>sku_in_rics</item>
+        <item>meta_description</item>
+        <item>meta_keyword</item>
+        <item>meta_title</item>
+        <item>prop_65</item>
+        <item>mpn</item>
+    </map>
+    <map name="mapping_attributes">
+        <item name="Brand">brand</item>
+        <item name="Category">category_ids</item>
+        <item name="ColorDescriptive">color</item>
+        <item name="ColorPrimary">color_primary</item>
+        <item name="Size">size</item>
+        <item name="Occasion">occasion</item>
+        <item name="Gender">gender</item>
+        <item name="Style">style</item>
+        <item name="Upc">upc</item>
+        <item name="RicsSku">sku_in_rics</item>
+        <item name="RicsProductId">rics_product_id</item>
+        <item name="Height">ship_height</item>
+        <item name="Width">ship_width</item>
+        <item name="Length">ship_length</item>
+        <item name="Name">name</item>
+        <item name="Weight">weight</item>
+        <item name="Qty">qty</item>
+        <item name="Website">website</item>
+        <item name="Price">price</item>
+        <item name="SpecialPrice">special_price</item>
+        <item name="CollectionId">collection_id</item>
+        <item name="Description">description</item>
+        <item name="CreatedAt">created_at</item>
+        <item name="ProductCategory">product_plkl_category</item>
+        <item name="ProductClass">product_plkl_class</item>
+        <item name="ProductDepartment">product_plkl_department</item>
+        <item name="ProductGroup">product_plkl_group</item>
+        <item name="Sku">sku</item>
+        <item name="Price_Plndr">price_plndr</item>
+        <item name="SpecialPrice_Plndr">special_price_plndr</item>
+        <item name="Price_KL">price_kl</item>
+        <item name="SpecialPrice_KL">special_price_kl</item>
+        <item name="KlParentID">kl_parent_id</item>
+        <item name="ProductIsDropShip">product_is_drop_ship</item>
+        <item name="IsActive">status</item>
+        <item name="ProductIsPTO">is_product_is_pto</item>
+        <item name="PromoPricing">promo_pricing</item>
+        <item name="IsClearance">is_clearance</item>
+        <item name="UnitCost">unit_cost</item>
+        <item name="Blowout">blowout</item>
+        <item name="ImportTime">imported_time</item>
+        <item name="ProductMetaDescription">meta_description</item>
+        <item name="ProductKeywords">meta_keyword</item>
+        <item name="ProductTitleTag">meta_title</item>
+        <item name="Prop65">prop_65</item>
+        <item name="Mpn">mpn</item>
+    </map>
+    <map name="required_attributes">
+        <item name="Upc">upc</item>
+        <item name="Sku">sku</item>
+        <item name="Website">website</item>
+        <item name="FamilyId">FamilyId</item>
+    </map>
+    <map name="mapping_images">
+        <item name="base_image">1</item>
+        <item name="small_image">1</item>
+        <item name="thumbnail_image">1</item>
+    </map>
+    <map name="dependsAttribute">
+        <item name="price">
+            <item>price_kl</item>
+            <item>price_plndr</item>
+        </item>
+        <item name="special_price">
+            <item>special_price_plndr</item>
+            <item>special_price_kl</item>
+        </item>
+        <item name="imported_time">
+            <item>news_from_date</item>
+            <item>news_to_date</item>
+        </item>
+    </map>
+    <map name="additionalAttributes">
+        <item>ro_sku</item>
+    </map>
+    <map name="system">
+        <item name="product_type">
+            <item name="configurable">configurable</item>
+            <item name="simple">simple</item>
+        </item>
+        <item name="reference">FamilyId</item>
+        <item name="default_attributes">
+            <item name="for_new_products">
+                <item name="configurable">
+                    <item name="status">2</item>
+                </item>
+                <item name="simple">
+                    <item name="status">2</item>
+                </item>
+            </item>
+            <item name="for_update_products">
+                <item name="configurable">
+                    <item name="visibility">@notChanged</item>
+                </item>
+                <item name="simple">
+                    <item name="visibility">@notChanged</item>
+                </item>
+            </item>
+        </item>
+    </map>
+</config>
