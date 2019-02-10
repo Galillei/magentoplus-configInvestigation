@@ -15,7 +15,7 @@
     <type name="MagentoPlus\ConfigInvestigation\Model\Config\Data">
         <arguments>
             <argument name="reader" xsi:type="object">MagentoPlus\ConfigInvestigation\Model\Config\Reader</argument>
-            <argument name="cacheId" xsi:type="object">ro_import_maps</argument>
+            <argument name="cacheId" xsi:type="string">ro_import_maps</argument>
         </arguments>
     </type>
 </config>
